@@ -189,8 +189,16 @@
                 "@type": "marc:ParticipantOrPerformerNote",
                 "label": ""
               }
-            ]
-          }
+            ],
+            "intendedAudience": []
+          },
+          "contribution": [
+        {
+          "@type": "Contribution",
+          "agent": null,
+          "role": []
+        }
+          ]
         }
       }
     },
@@ -378,8 +386,16 @@
                 "@type": "marc:ParticipantOrPerformerNote",
                 "label": ""
               }
-            ]
-          }
+            ],
+            "intendedAudience": []
+          },
+          "contribution": [
+        {
+          "@type": "Contribution",
+          "agent": null,
+          "role": []
+        }
+      ]
         }
       }
     },
@@ -867,10 +883,18 @@
                 "label": ""
               }
             ],
-            "subject": []
+            "subject": [],
+             "intendedAudience": []
+      },
+          "contribution": [
+        {
+          "@type": "Contribution",
+          "agent": null,
+          "role": []
+        }
+      ]
           }
         }
-      }
     },
     "electronicPeriodicalText": {
       "label": "Elektronisk seriell resurs",
