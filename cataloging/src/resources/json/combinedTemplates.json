@@ -1740,7 +1740,40 @@
             "hasNote": [{
               "@type": "marc:ParticipantOrPerformerNote",
               "label": ""
-            }]
+            }],
+             "hasPart": [
+          {
+            "@type": "Work",
+            "hasTitle": [
+              {
+                "@type": "Title",
+                "mainTitle": "",
+                "partNumber": [
+                  ""
+                ],
+                "partName": [
+                  ""
+                ]
+              }
+            ],
+            "contribution": [
+              {
+                "@type": "PrimaryContribution",
+                "agent": null
+              }
+            ],
+            "marc:arrangedStatementForMusic": "",
+            "musicKey": "",
+            "musicMedium": [
+              {
+                "@type": "MusicMedium",
+                "label": [
+                  ""
+                ]
+              }
+            ]
+          }
+        ]
           }
         }
       }
